@@ -1,0 +1,17 @@
+@api = http://localhost:5000
+GET {{api}}/videos/1
+
+
+####
+GET {{api}}/videos/1
+
+### create vid
+POST http://localhost:5000/videos
+Content-Type: application/json
+{
+    "url": "https://www.youtube.com/watch?v=f02mOEt11OQ&ab_channel=TheAMPChannel",
+    "title": "song bird",
+    "desc" : "this is a song vid"
+}
+
+

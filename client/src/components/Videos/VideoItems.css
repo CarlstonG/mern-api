@@ -1,0 +1,14 @@
+h1, p {
+   
+
+    padding: 0!important;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.video-card:hover{
+    border: 1px solid rgb(18, 18, 19);
+}
